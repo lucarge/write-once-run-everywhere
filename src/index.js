@@ -1,18 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import Redbox from 'redbox-react';
-
-import Presentation from './presentation';
+import { Presentation } from './presentation';
 
 require('normalize.css');
 
 const CustomErrorReporter = ({ error }) => <Redbox error={error} />;
-
-CustomErrorReporter.propTypes = {
-  error: PropTypes.instanceOf(Error).isRequired,
-};
 
 ReactDOM.render(
   <AppContainer errorReporter={CustomErrorReporter}>
@@ -23,7 +17,8 @@ ReactDOM.render(
 
 if (module.hot) {
   module.hot.accept('./presentation', () => {
-    const NextPresentation = require('./presentation').default;
+    const { Presentation: NextPresentation } = require('./presentation');
+
     ReactDOM.render(
       <AppContainer errorReporter={CustomErrorReporter}>
         <NextPresentation />
