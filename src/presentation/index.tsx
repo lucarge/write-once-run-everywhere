@@ -1,17 +1,10 @@
 import React from 'react';
-import {
-  BlockQuote,
-  Cite,
-  Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-} from 'spectacle';
+import { Deck } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 import { Slide1 } from "./slides/Slide1";
 import { Slide2 } from "./slides/Slide2";
+import { Slide3 } from "./slides/Slide3";
+import { Slide4 } from "./slides/Slide4";
 
 const theme = createTheme(
   {
@@ -34,6 +27,8 @@ const Presentation = () => (
   >
     <Slide1 />
     <Slide2 />
+    <Slide3 />
+    <Slide4 />
   </Deck>
 );
 

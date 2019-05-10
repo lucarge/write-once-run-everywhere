@@ -1,5 +1,5 @@
 import React from "react";
-import { CodePane, Heading, Slide, Text } from "spectacle";
+import { CodePane, Heading, Slide } from "spectacle";
 
 const source = `
   const user = {
