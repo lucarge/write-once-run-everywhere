@@ -1,12 +1,16 @@
 import React from "react";
 import { Image, Slide, Text } from "spectacle";
+import { BoxShadow } from "../../../components/BoxShadow";
 import backgroundImage from './backgroundImage.png';
 
 export const Slide3 = () => (
   <Slide>
-    <Image src={backgroundImage} height={500} />
+    <BoxShadow style={{ padding: 0 }}>
+      <Image margin="0" src={backgroundImage} />
+    </BoxShadow>
 
-    <Text caps margin="30px 0" textColor="secondary">We're hiring!</Text>
+    <Text margin="30px 0 0">Do you want to join us?</Text>
+    <Text bold>We're hiring!</Text>
   </Slide>
 )
 
