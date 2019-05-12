@@ -16,11 +16,11 @@ export const Slide9 = () => (
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        When we need juice in performance, we're free to go full Native "over the bridge"
+        If we needed juice in performance, we would be free to go full Native "over the bridge"
       </ListItem>
     </List>
 
-    <Text italic textAlign="left" textSize="24px">But still, we need to write the UI twice.</Text>
+    <Text italic textAlign="left" textSize="24px">Still, we need to write the UI twice.</Text>
   </Slide>
 )
 
