@@ -9,7 +9,7 @@ export const Slide12 = () => (
     style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}
   >
     <BoxShadow style={{ bottom: '50px', left: '25%', position: 'absolute' }}>
-      <Text italic margin="20px 0" textSize="24px">A more accurate rappresentation of the UI tree</Text>
+      <Text italic margin="20px 0" textSize="24px">A more accurate representation of the UI tree</Text>
     </BoxShadow>
   </Slide>
 )

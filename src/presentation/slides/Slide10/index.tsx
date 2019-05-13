@@ -9,7 +9,7 @@ export const Slide10 = () => (
     style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}
   >
     <BoxShadow style={{ bottom: '50px', left: '25%', position: 'absolute' }}>
-      <Text italic margin="20px 0" textSize="24px">A visual rappresentation of the proposed architecture</Text>
+      <Text italic margin="20px 0" textSize="24px">A visual representation of the proposed architecture</Text>
     </BoxShadow>
   </Slide>
 )

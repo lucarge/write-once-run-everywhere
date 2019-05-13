@@ -4,11 +4,11 @@ import { List, ListItem, Slide, Text } from "spectacle";
 export const Slide11 = () => (
   <Slide>
     <Text bold textAlign="left">React and React Native</Text>
-    <Text textAlign="left">are not mutually exlusive!</Text>
+    <Text textAlign="left">are not mutually exclusive!</Text>
 
     <List margin="100px 0">
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        React is a Javascript library for building user interfaces
+        React is a JavaScript library for building user interfaces
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
