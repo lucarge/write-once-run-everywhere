@@ -17,6 +17,11 @@ import { Slide13 } from './slides/Slide13';
 import { Slide14 } from './slides/Slide14';
 import { Slide15 } from './slides/Slide15';
 import { Slide16 } from './slides/Slide16';
+import { Slide17 } from './slides/Slide17';
+import { Slide18 } from './slides/Slide18';
+import { Slide19 } from './slides/Slide19';
+import { Slide20 } from './slides/Slide20';
+import { Slide21 } from './slides/Slide21';
 
 const theme = createTheme(
   {
@@ -53,6 +58,11 @@ const Presentation = () => (
     <Slide14 />
     <Slide15 />
     <Slide16 />
+    <Slide17 />
+    <Slide18 />
+    <Slide19 />
+    <Slide20 />
+    <Slide21 />
   </Deck>
 );
 
