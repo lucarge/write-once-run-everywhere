@@ -1,7 +1,7 @@
 import React from "react";
 import { List, ListItem, Slide, Text } from "spectacle";
 
-const Fix = (List as any);
+const Fix = List as any;
 
 export const Slide16 = () => (
   <Slide>
