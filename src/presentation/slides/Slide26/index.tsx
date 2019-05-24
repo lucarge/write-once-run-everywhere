@@ -20,7 +20,7 @@ export const Slide26 = () => (
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        And many, many more things ...
+        And many, many more things...
       </ListItem>
     </List>
   </Slide>

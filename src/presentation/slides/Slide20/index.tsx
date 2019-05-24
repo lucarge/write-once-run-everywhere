@@ -6,7 +6,7 @@ export const Slide20 = () => (
   <Slide>
     <Text bold textAlign="left">Issue #3</Text>
     <Text italic textAlign="left" textSize="24px">
-      We should send down the wire the least amount of code necessary to run our apps, aka we should not include the
+      We should send down the wire the least amount of code necessary to run our apps. Ergo we should not include the
       native code in the web app (and the other way around)
     </Text>
 

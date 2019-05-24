@@ -15,9 +15,9 @@ export const Slide28 = () => (
 
     <Text bold margin="200px 0 0" textAlign="left" textSize="24px">And if you want to work with me</Text>
     <Text margin="20px 0 0" textAlign="left" textSize="24px">
-      please consider applying at
+      apply at
       {' '}
-      <span style={{ color: '#03A9FC' }}>https://jobs.jobvite.com/prontopro/job/oCiT9fwG</span>
+      <span style={{ color: '#03A9FC' }}>https://bit.ly/2WYUUq5</span>
     </Text>
   </Slide>
 )

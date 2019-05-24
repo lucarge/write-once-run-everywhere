@@ -3,12 +3,12 @@ import { List, ListItem, Slide, Text } from "spectacle";
 
 export const Slide9 = () => (
   <Slide>
-    <Text bold textAlign="left">Still, we saw a lot of potential</Text>
+    <Text bold textAlign="left">Nevertheless, we saw a lot of potential</Text>
     <Text textAlign="left">in the technology</Text>
 
     <List margin="100px 0">
       <ListItem margin="20px 0" textSize="24px">
-        We could share business logic between the dashboard and the app
+        We could share business logic between the web app and the mobile apps
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
@@ -20,7 +20,7 @@ export const Slide9 = () => (
       </ListItem>
     </List>
 
-    <Text italic textAlign="left" textSize="24px">Still, we need to write the UI twice.</Text>
+    <Text italic textAlign="left" textSize="24px">However, we still need to write the UI twice.</Text>
   </Slide>
 )
 
