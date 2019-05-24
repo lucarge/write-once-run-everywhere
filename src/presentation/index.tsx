@@ -19,7 +19,7 @@ import { Slide15 } from './slides/Slide15';
 import { Slide16 } from './slides/Slide16';
 import { Slide17 } from './slides/Slide17';
 import { Slide18 } from './slides/Slide18';
-import { Slide19 } from './slides/Slide19';
+import { Slide19, Slide191 } from './slides/Slide19';
 import { Slide20 } from './slides/Slide20';
 import { Slide21 } from './slides/Slide21';
 import { Slide22 } from './slides/Slide22';
@@ -68,6 +68,7 @@ const Presentation = () => (
     <Slide17 />
     <Slide18 />
     <Slide19 />
+    <Slide191 />
     <Slide20 />
     <Slide21 />
     <Slide22 />

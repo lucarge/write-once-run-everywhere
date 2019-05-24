@@ -15,3 +15,5 @@ export const Slide17 = (props: SlideProps) => (
     <Text italic textSize="28px">Use babel transformations to have target information available at runtime</Text>
   </Slide>
 );
+
+export default undefined
