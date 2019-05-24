@@ -1,9 +1,9 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
 import architecturalProposalOverview from "./architecturalProposalOverview.png";
 
-export const Slide10 = () => (
+export const Slide10 = (props: SlideProps) => (
   <Slide
     bgImage={architecturalProposalOverview}
     style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}

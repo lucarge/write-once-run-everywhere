@@ -1,8 +1,8 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 
-export const Slide25 = () => (
-  <Slide>
+export const Slide25 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold>Demo</Text>
   </Slide>
 );

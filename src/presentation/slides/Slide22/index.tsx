@@ -1,10 +1,10 @@
 import React from "react";
-import { Image, Slide, Text } from "spectacle";
+import { Image, Slide, Text , SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
 import metroTransformer from "./metroTransformer.png";
 
-export const Slide22 = () => (
-  <Slide>
+export const Slide22 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">Embrace the bundlers</Text>
     <Text margin="0 0 30px 0" textAlign="left">and truncate the dependency tree when irrelevant</Text>
 

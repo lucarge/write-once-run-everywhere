@@ -1,9 +1,9 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
 import sharingUiBetweenReactAndReactNative from "./sharingUiBetweenReactAndReactNative.png";
 
-export const Slide12 = () => (
+export const Slide12 = (props: SlideProps) => (
   <Slide
     bgImage={sharingUiBetweenReactAndReactNative}
     style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }}

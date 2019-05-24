@@ -1,8 +1,8 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 
-export const Slide21 = () => (
-  <Slide>
+export const Slide21 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text textAlign="left">Using dynamic imports</Text>
     <Text bold textAlign="left">has a bunch of issues</Text>
 

@@ -1,10 +1,10 @@
 import React from "react";
-import { Image, Slide } from "spectacle";
+import { Image, Slide, SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
 import whoAmI from "./whoAmI.png";
 
-export const Slide2 = () => (
-  <Slide>
+export const Slide2 = (props: SlideProps) => (
+  <Slide {...props}>
     <BoxShadow style={{ padding: 0 }}>
       <Image margin="0" src={whoAmI} />
     </BoxShadow>

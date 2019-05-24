@@ -1,8 +1,8 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 
-export const Slide4 = () => (
-  <Slide>
+export const Slide4 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">Once upon a time...</Text>
     <Text margin="10px 0 50px" textAlign="left">a product manager came to us.</Text>
 

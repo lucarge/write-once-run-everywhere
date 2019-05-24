@@ -1,10 +1,10 @@
 import React from "react";
-import { List, ListItem, Slide, Text } from "spectacle";
+import { List, ListItem, Slide, SlideProps, Text } from "spectacle";
 
 const Fix = List as any;
 
-export const Slide16 = () => (
-  <Slide>
+export const Slide16 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">Issues</Text>
 
     <Fix ordered margin="100px 0">

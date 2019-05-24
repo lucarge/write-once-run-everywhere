@@ -1,10 +1,10 @@
 import React from "react";
-import { Image, Slide, Text } from "spectacle";
+import { Image, Slide, Text , SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
 import buildOutputs from './buildOutputs.png'
 
-export const Slide24 = () => (
-  <Slide>
+export const Slide24 = (props: SlideProps) => (
+  <Slide {...props}>
     <BoxShadow>
       <Image src={buildOutputs} />
     </BoxShadow>
