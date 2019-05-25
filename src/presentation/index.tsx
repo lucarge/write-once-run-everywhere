@@ -28,7 +28,6 @@ import { Slide24 } from './slides/Slide24';
 import { Slide25 } from './slides/Slide25';
 import { Slide26 } from './slides/Slide26';
 import { Slide27 } from './slides/Slide27';
-import { Slide28 } from './slides/Slide28';
 
 const theme = createTheme(
   {
@@ -77,7 +76,6 @@ const Presentation = () => (
     <Slide25 />
     <Slide26 />
     <Slide27 />
-    <Slide28 />
   </Deck>
 );
 
