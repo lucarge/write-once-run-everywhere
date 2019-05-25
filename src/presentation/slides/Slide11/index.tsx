@@ -4,7 +4,7 @@ import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
 export const Slide11 = (props: SlideProps) => (
   <Slide {...props}>
     <Text bold textAlign="left">React and React Native</Text>
-    <Text textAlign="left">are not mutually exclusive!</Text>
+    <Text textAlign="left">are <strong>not mutually exclusive</strong>!</Text>
 
     <List margin="100px 0">
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">

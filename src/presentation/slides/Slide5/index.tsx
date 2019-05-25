@@ -11,11 +11,11 @@ export const Slide5 = (props: SlideProps) => (
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Developing a hybrid app with Ionic/Cordova and reuse the web dashboard
+        Developing a hybrid app with Ionic/Cordova and reuse the web app
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Using React Native
+        Developing a unified app by using React Native
       </ListItem>
     </List>
   </Slide>

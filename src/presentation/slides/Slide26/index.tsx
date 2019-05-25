@@ -8,15 +8,15 @@ export const Slide26 = (props: SlideProps) => (
 
     <List margin="100px 0">
       <ListItem margin="20px 0" textSize="24px">
-        Building a styling system that works cross platform.
+        Building a <strong>styling system</strong> that works across platforms.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Building a grid system that works cross platform. Spoiler: you need to embrace the flexbox.
+        Building a <strong>grid system</strong> that works across platforms. Spoiler: you need to embrace the flexbox.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Unified routing system with React Router 4.
+        Unified <strong>routing system</strong> with React Router 4.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
