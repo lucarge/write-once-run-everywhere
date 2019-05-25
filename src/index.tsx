@@ -1,12 +1,15 @@
+import 'normalize.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import Redbox from 'redbox-react';
 import { Presentation } from './presentation';
 
-require('normalize.css');
+type ErrorProps = {
+  error: Error
+}
 
-const CustomErrorReporter = ({ error }) => <Redbox error={error} />;
+const CustomErrorReporter = ({ error }: ErrorProps) => <Redbox error={error} />;
 
 ReactDOM.render(
   <AppContainer errorReporter={CustomErrorReporter}>
