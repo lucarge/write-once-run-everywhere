@@ -1,8 +1,8 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text , SlideProps } from "spectacle";
 
-export const Slide18 = () => (
-  <Slide>
+export const Slide18 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">Issue #2</Text>
     <Text italic textAlign="left" textSize="24px">
       Platform agnostic abstractions should be able to reference, and use, platform specific implementations,

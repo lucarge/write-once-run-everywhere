@@ -1,9 +1,9 @@
 import React from "react";
-import { Image, Slide, Text } from "spectacle";
+import { Image, Slide, Text , SlideProps } from "spectacle";
 import differentiateEnvironments from "./differentiateEnvironments.png";
 
-export const Slide17 = () => (
-  <Slide>
+export const Slide17 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">Issue #1</Text>
     <Text italic textAlign="left" textSize="24px">
       We should be able to differentiate implementations per platform if needed, at any level of abstraction

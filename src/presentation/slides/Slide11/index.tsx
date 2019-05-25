@@ -1,8 +1,8 @@
 import React from "react";
-import { List, ListItem, Slide, Text } from "spectacle";
+import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
 
-export const Slide11 = () => (
-  <Slide>
+export const Slide11 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">React and React Native</Text>
     <Text textAlign="left">are not mutually exclusive!</Text>
 

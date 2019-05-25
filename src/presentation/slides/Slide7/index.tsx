@@ -1,8 +1,8 @@
 import React from "react";
-import { List, ListItem, Slide, Text } from "spectacle";
+import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
 
-export const Slide7 = () => (
-  <Slide>
+export const Slide7 = (props: SlideProps) => (
+  <Slide {...props}>
     <Text bold textAlign="left">React Native wasn't in a great shape</Text>
     <Text textAlign="left">at the time...</Text>
 
