@@ -3,7 +3,8 @@ import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
 
 export const Slide26 = (props: SlideProps) => (
   <Slide {...props}>
-    <Text bold textAlign="left">The missing bits</Text>
+    <Text bold textAlign="left">The road to a fully unified app</Text>
+    <Text textAlign="left">The missing bits...</Text>
     <Text textAlign="left">we don't have time to talk about</Text>
 
     <List margin="100px 0">
