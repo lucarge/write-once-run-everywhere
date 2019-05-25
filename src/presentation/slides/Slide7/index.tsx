@@ -8,15 +8,15 @@ export const Slide7 = (props: SlideProps) => (
 
     <List margin="100px 0 0">
       <ListItem margin="20px 0" textSize="24px">
-        Lots of unresolved issues
+        Lots of <strong>unresolved issues</strong>
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Lots of breaking changes between versions, that made upgrading hard
+        Lots of <strong>breaking changes</strong> between versions, that made upgrading hard
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Uncertainty about the future of the project inside Facebook
+        <strong>Uncertainty</strong> about the future of the project inside Facebook
       </ListItem>
     </List>
   </Slide>

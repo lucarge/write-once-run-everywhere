@@ -9,16 +9,16 @@ export const Slide16 = (props: SlideProps) => (
 
     <Fix ordered margin="100px 0">
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        We should be able to differentiate implementations per platform if needed, at any level of abstraction
+        We should be able to <strong>differentiate implementations</strong> per platform if needed, at any level of abstraction
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        Platform agnostic abstractions should be able to reference and use platform specific implementations,
+        Platform agnostic abstractions should be able to reference and <strong>use platform specific implementations</strong>,
         without having to be written twice
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        We should send down the wire the least amount of code necessary to run our apps. Ergo we should not include
+        We should send down the wire the <strong>least amount of code</strong> necessary to run our apps. Ergo we should not include
         the native code in the web app (and the other way around)
       </ListItem>
     </Fix>

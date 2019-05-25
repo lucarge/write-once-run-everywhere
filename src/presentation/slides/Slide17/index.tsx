@@ -11,8 +11,8 @@ export const Slide17 = (props: SlideProps) => (
 
     <Image margin="40px auto" src={differentiateEnvironments} />
 
-    <Text bold textSize="28px">Solution</Text>
-    <Text italic textSize="28px">Use babel transformations to have target information available at runtime</Text>
+    <Text bold textAlign="left" textSize="28px">Solution</Text>
+    <Text italic textAlign="left" textSize="28px">Use <strong>babel transformations</strong> to have target information available at runtime</Text>
   </Slide>
 );
 

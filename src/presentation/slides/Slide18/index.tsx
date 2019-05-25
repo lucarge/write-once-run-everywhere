@@ -19,7 +19,7 @@ export const Slide18 = (props: SlideProps) => (
     </Text>
     <Text bold italic margin="20px 0 0" textAlign="left" textSize="24px">With a PROXY!</Text>
     <Text italic margin="20px 0 0" textAlign="left" textSize="24px">
-      So, in front of our dynamic, platform specific implementations, we can try to put a proxy as well...
+      So, in front of our dynamic, platform specific implementations, we can try to put a <strong>proxy</strong> as well...
     </Text>
   </Slide>
 );

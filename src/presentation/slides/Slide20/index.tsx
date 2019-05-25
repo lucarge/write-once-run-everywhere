@@ -14,7 +14,7 @@ export const Slide20 = (props: SlideProps) => (
 
     <Text bold margin="20px 0 10px" textAlign="left" textSize="28px">First attempt</Text>
     <Text margin="20px 0 0" textAlign="left" textSize="24px">
-      The obvious solution to this issue is to leverage dynamic imports, so that only the code that you'll need will be
+      The obvious solution to this issue is to leverage <strong>dynamic imports</strong>, so that only the code that you'll need will be
       fetched.
     </Text>
   </Slide>
