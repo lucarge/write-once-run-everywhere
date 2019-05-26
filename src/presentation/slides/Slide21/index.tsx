@@ -1,10 +1,12 @@
 import React from "react";
-import { Slide, Text , SlideProps } from "spectacle";
+import { Slide, Text, SlideProps } from "spectacle";
 
 export const Slide21 = (props: SlideProps) => (
   <Slide {...props}>
     <Text textAlign="left">Using dynamic imports</Text>
-    <Text bold textAlign="left">has a bunch of issues</Text>
+    <Text bold textAlign="left">
+      has a bunch of issues
+    </Text>
 
     <Text margin="80px 0 0" textAlign="left" textSize="24px">
       Unfortunately, not only basing your abstraction layer on dynamic imports will kill the performance of your app
@@ -17,4 +19,4 @@ export const Slide21 = (props: SlideProps) => (
   </Slide>
 );
 
-export default undefined
+export default undefined;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text , SlideProps } from "spectacle";
+import { Slide, Text, SlideProps } from "spectacle";
 
 export const Slide25 = (props: SlideProps) => (
   <Slide {...props}>
@@ -7,4 +7,4 @@ export const Slide25 = (props: SlideProps) => (
   </Slide>
 );
 
-export default undefined
+export default undefined;

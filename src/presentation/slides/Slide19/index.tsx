@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Slide , SlideProps } from "spectacle";
+import { Image, Slide, SlideProps } from "spectacle";
 import componentProxy from "./componentProxy.png";
 import platformSpecificButton from "./platformSpecificButton.png";
 
@@ -15,4 +15,4 @@ export const Slide191 = (props: SlideProps) => (
   </Slide>
 );
 
-export default undefined
+export default undefined;

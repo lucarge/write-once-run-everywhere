@@ -1,9 +1,11 @@
 import React from "react";
-import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
+import { List, ListItem, Slide, Text, SlideProps } from "spectacle";
 
 export const Slide9 = (props: SlideProps) => (
   <Slide {...props}>
-    <Text bold textAlign="left">Nevertheless, we saw a lot of potential</Text>
+    <Text bold textAlign="left">
+      Nevertheless, we saw a lot of potential
+    </Text>
     <Text textAlign="left">in the technology</Text>
 
     <List margin="100px 0">
@@ -20,8 +22,10 @@ export const Slide9 = (props: SlideProps) => (
       </ListItem>
     </List>
 
-    <Text italic textAlign="left" textSize="24px">However, we still needed to write the UI twice.</Text>
+    <Text italic textAlign="left" textSize="24px">
+      However, we still needed to write the UI twice.
+    </Text>
   </Slide>
 );
 
-export default undefined
+export default undefined;

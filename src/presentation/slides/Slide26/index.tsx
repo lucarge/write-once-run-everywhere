@@ -1,9 +1,11 @@
 import React from "react";
-import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
+import { List, ListItem, Slide, Text, SlideProps } from "spectacle";
 
 export const Slide26 = (props: SlideProps) => (
   <Slide {...props}>
-    <Text bold textAlign="left">The road to a fully unified app</Text>
+    <Text bold textAlign="left">
+      The road to a fully unified app
+    </Text>
     <Text textAlign="left">The missing bits...</Text>
     <Text textAlign="left">we don't have time to talk about</Text>
 
@@ -27,4 +29,4 @@ export const Slide26 = (props: SlideProps) => (
   </Slide>
 );
 
-export default undefined
+export default undefined;

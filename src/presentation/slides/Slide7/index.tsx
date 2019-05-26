@@ -1,9 +1,11 @@
 import React from "react";
-import { List, ListItem, Slide, Text , SlideProps } from "spectacle";
+import { List, ListItem, Slide, Text, SlideProps } from "spectacle";
 
 export const Slide7 = (props: SlideProps) => (
   <Slide {...props}>
-    <Text bold textAlign="left">React Native wasn't in a great shape</Text>
+    <Text bold textAlign="left">
+      React Native wasn't in a great shape
+    </Text>
     <Text textAlign="left">at the time...</Text>
 
     <List margin="100px 0 0">
@@ -20,6 +22,6 @@ export const Slide7 = (props: SlideProps) => (
       </ListItem>
     </List>
   </Slide>
-)
+);
 
-export default undefined
+export default undefined;

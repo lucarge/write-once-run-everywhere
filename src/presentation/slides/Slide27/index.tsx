@@ -1,17 +1,19 @@
 import React from "react";
-import { Slide, Text , SlideProps } from "spectacle";
+import { Slide, Text, SlideProps } from "spectacle";
 import { Row } from "../../../components/Row";
 import { Column } from "../../../components/Column";
 
 export const Slide27 = (props: SlideProps) => (
   <Slide {...props}>
     <Text bold>Thank you!</Text>
-    <span style={{ fontSize: '60px', margin: '30px 0 0' }}>🙏</span>
+    <span style={{ fontSize: "60px", margin: "30px 0 0" }}>🙏</span>
 
     <Column paddingTop={100}>
       <Row alignItems="flex-start" justifyContent="space-between">
         <Column flexBasis="0" flexGrow={1}>
-          <Text bold margin="0" textAlign="left" textSize="28px">Links</Text>
+          <Text bold margin="0" textAlign="left" textSize="28px">
+            Links
+          </Text>
           <Text margin="20px 0 0" textAlign="left" textColor="tertiary" textSize="24px">
             https://twitter.com/lucarge
           </Text>
@@ -21,11 +23,11 @@ export const Slide27 = (props: SlideProps) => (
         </Column>
 
         <Column flexBasis="0" flexGrow={1}>
-          <Text bold margin="0" textAlign="right" textSize="28px">And if you want to work with me</Text>
+          <Text bold margin="0" textAlign="right" textSize="28px">
+            And if you want to work with me
+          </Text>
           <Text margin="20px 0 0" textAlign="right" textSize="24px">
-            apply at
-            {' '}
-            <span style={{ color: '#03A9FC' }}>https://bit.ly/2WYUUq5</span>
+            apply at <span style={{ color: "#03A9FC" }}>https://bit.ly/2WYUUq5</span>
           </Text>
         </Column>
       </Row>
@@ -33,11 +35,11 @@ export const Slide27 = (props: SlideProps) => (
 
     <Column padding="200px 0 100px">
       <Row alignItems="center" justifyContent="center">
-        <span style={{ fontSize: '96px', margin: '10px 20px' }}>👨‍🏫</span>
-        <span style={{ fontSize: '36px', fontWeight: 'bold' }}>Questions?</span>
+        <span style={{ fontSize: "96px", margin: "10px 20px" }}>👨‍🏫</span>
+        <span style={{ fontSize: "36px", fontWeight: "bold" }}>Questions?</span>
       </Row>
     </Column>
   </Slide>
-)
+);
 
-export default undefined
+export default undefined;

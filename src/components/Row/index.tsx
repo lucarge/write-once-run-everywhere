@@ -1,8 +1,8 @@
 import React, { CSSProperties, ReactNode } from "react";
 
 type Props = CSSProperties & {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
 export const Row = ({
   alignItems = "stretch",
@@ -14,19 +14,21 @@ export const Row = ({
   flexShrink = 1,
   ...props
 }: Props) => (
-  <div style={{
-    ...props,
-    alignItems,
-    flexBasis,
-    flexWrap,
-    flexGrow,
-    justifyContent,
-    flexShrink,
-    display: 'flex',
-    flexDirection: 'row',
-  }}>
-    { children }
+  <div
+    style={{
+      ...props,
+      alignItems,
+      flexBasis,
+      flexWrap,
+      flexGrow,
+      justifyContent,
+      flexShrink,
+      display: "flex",
+      flexDirection: "row",
+    }}
+  >
+    {children}
   </div>
 );
 
-export default undefined
+export default undefined;

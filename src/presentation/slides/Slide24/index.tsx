@@ -1,7 +1,7 @@
 import React from "react";
-import { Image, Slide, Text , SlideProps } from "spectacle";
+import { Image, Slide, Text, SlideProps } from "spectacle";
 import { BoxShadow } from "../../../components/BoxShadow";
-import buildOutputs from './buildOutputs.png'
+import buildOutputs from "./buildOutputs.png";
 
 export const Slide24 = (props: SlideProps) => (
   <Slide {...props}>
@@ -23,4 +23,4 @@ export const Slide24 = (props: SlideProps) => (
   </Slide>
 );
 
-export default undefined
+export default undefined;

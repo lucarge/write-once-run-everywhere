@@ -9,6 +9,6 @@ export const Slide2 = (props: SlideProps) => (
       <Image margin="0" src={whoAmI} />
     </BoxShadow>
   </Slide>
-)
+);
 
-export default undefined
+export default undefined;
