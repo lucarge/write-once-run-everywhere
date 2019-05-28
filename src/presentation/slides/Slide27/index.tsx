@@ -2,11 +2,12 @@ import React from "react";
 import { Slide, Text, SlideProps } from "spectacle";
 import { Row } from "../../../components/Row";
 import { Column } from "../../../components/Column";
+import { Emoji } from "../../../components/Emoji";
 
 export const Slide27 = (props: SlideProps) => (
   <Slide {...props}>
     <Text bold>Thank you!</Text>
-    <span style={{ fontSize: "60px", margin: "30px 0 0" }}>🙏</span>
+    <Emoji style={{ fontSize: "60px", margin: "30px 0 0" }} value="🙏" />
 
     <Column paddingTop={100}>
       <Row alignItems="flex-start" justifyContent="space-between">
@@ -35,7 +36,7 @@ export const Slide27 = (props: SlideProps) => (
 
     <Column padding="200px 0 100px">
       <Row alignItems="center" justifyContent="center">
-        <span style={{ fontSize: "96px", margin: "10px 20px" }}>👨‍🏫</span>
+        <Emoji style={{ fontSize: "96px", margin: "10px 20px" }} value="👨‍🏫" />
         <span style={{ fontSize: "36px", fontWeight: "bold" }}>Questions?</span>
       </Row>
     </Column>
