@@ -9,6 +9,7 @@ import { Slide5 } from "./slides/Slide5";
 import { Slide6 } from "./slides/Slide6";
 import { Slide7 } from "./slides/Slide7";
 import { Slide8 } from "./slides/Slide8";
+import { Slide8b } from "./slides/Slide8b";
 import { Slide9 } from "./slides/Slide9";
 import { Slide10 } from "./slides/Slide10";
 import { Slide11 } from "./slides/Slide11";
@@ -22,6 +23,7 @@ import { Slide18 } from "./slides/Slide18";
 import { Slide19, Slide191 } from "./slides/Slide19";
 import { Slide20 } from "./slides/Slide20";
 import { Slide21 } from "./slides/Slide21";
+import { Slide21b } from "./slides/Slide21b";
 import { Slide22 } from "./slides/Slide22";
 import { Slide23 } from "./slides/Slide23";
 import { Slide24 } from "./slides/Slide24";
@@ -52,6 +54,7 @@ const Presentation = () => (
     <Slide6 />
     <Slide7 />
     <Slide8 />
+    <Slide8b />
     <Slide9 />
     <Slide10 />
     <Slide11 />
@@ -66,6 +69,7 @@ const Presentation = () => (
     <Slide191 />
     <Slide20 />
     <Slide21 />
+    <Slide21b />
     <Slide22 />
     <Slide23 />
     <Slide24 />

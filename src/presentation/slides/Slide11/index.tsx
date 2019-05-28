@@ -1,4 +1,5 @@
 import React from "react";
+import { Emoji } from "../../../components/Emoji";
 import { List, ListItem, Slide, Text, SlideProps } from "spectacle";
 
 export const Slide11 = (props: SlideProps) => (
@@ -12,19 +13,22 @@ export const Slide11 = (props: SlideProps) => (
 
     <List margin="100px 0">
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        React is a JavaScript library for building user interfaces
+        <Emoji style={{ fontSize: "32px" }} value="⚛️" /> React is a JavaScript library for building user interfaces
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        ReactDOM is the default renderer for React, targeting browsers
+        <Emoji style={{ fontSize: "32px" }} value="💻️" /> ReactDOM is the default renderer for React, targeting
+        browsers
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        React Native is a renderer for React, targeting Android and iOS
+        <Emoji style={{ fontSize: "32px" }} value="📱" /> React Native is a renderer for React, targeting Android and
+        iOS
       </ListItem>
 
       <ListItem margin="0 0 20px" textAlign="left" textSize="24px">
-        There are many other renderers, like React Native Windows and Ink
+        <Emoji style={{ fontSize: "32px" }} value="🤹🏻‍♂️" /> There are many other renderers, like React Native Windows and
+        Ink
       </ListItem>
     </List>
   </Slide>

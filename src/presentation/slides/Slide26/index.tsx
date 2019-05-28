@@ -1,4 +1,5 @@
 import React from "react";
+import { Emoji } from "../../../components/Emoji";
 import { List, ListItem, Slide, Text, SlideProps } from "spectacle";
 
 export const Slide26 = (props: SlideProps) => (
@@ -11,15 +12,17 @@ export const Slide26 = (props: SlideProps) => (
 
     <List margin="100px 0">
       <ListItem margin="20px 0" textSize="24px">
-        Building a <strong>styling system</strong> that works across platforms.
+        <Emoji style={{ fontSize: "32px" }} value="💅" /> Building a <strong>styling system</strong> that works across
+        platforms.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Building a <strong>grid system</strong> that works across platforms. Spoiler: you need to embrace the flexbox.
+        <Emoji style={{ fontSize: "32px" }} value="🏛" /> Building a <strong>grid system</strong> that works across
+        platforms. Spoiler: you need to embrace the flexbox.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">
-        Unified <strong>routing system</strong> with React Router 4.
+        <Emoji style={{ fontSize: "32px" }} value="✈️" /> Unified <strong>routing system</strong> with React Router 4.
       </ListItem>
 
       <ListItem margin="20px 0" textSize="24px">

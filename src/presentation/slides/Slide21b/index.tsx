@@ -1,10 +1,10 @@
 import React from "react";
 import { Image, Slide, SlideProps } from "spectacle";
-import whoAmI from "./whoAmI.png";
+import chemistryCat from "./chemistryCat.png";
 
-export const Slide2 = (props: SlideProps) => (
+export const Slide21b = (props: SlideProps) => (
   <Slide {...props}>
-    <Image src={whoAmI} />
+    <Image src={chemistryCat} />
   </Slide>
 );
 
